@@ -1,0 +1,24 @@
+Item,Qty,Reference(s),Value,Footprint,Category,Description,MFR,MPN
+1,1,A1,Arduino_Nano_v3.x,Module:Arduino_Nano,,,,
+2,1,C1,100uF/50v,Capacitor_SMD:CP_Elec_10x10,Capacitor,CAP ALUM 100UF 20% 50V RADIAL,Nichicon,UCJ1H101MCL1GS
+3,4,"C2, C4, C5, C6",0.1uF,Capacitor_SMD:C_0603_1608Metric,Capacitor,CAP CER 0.1UF 50V X7R 0603,,
+4,1,C3,220uF/16v,Capacitor_SMD:CP_Elec_6.3x7.7,Capacitor,CAP ALUM 220UF 20% 16V RADIAL,Nichicon,UUD1C221MCL1GS
+5,1,C7,2.5pF,Capacitor_SMD:C_0603_1608Metric,Capacitor,CAP CER 2.5PF 50V X7R 0603,,
+6,2,"C8, C9",22pF,Capacitor_SMD:C_0603_1608Metric,Capacitor,CAP CER 22PF 50V X7R 0603,,
+7,1,D1,1N5822,Diode_THT:D_DO-201AD_P15.24mm_Horizontal,,,STM,1N5822
+8,2,"D2, D3",P600B-E3/54,Diode_THT:D_P600_R-6_P20.00mm_Horizontal,,,Vishay,P600B-E3/54
+9,2,"FH1, FH2",XF-508P-A,FanSpeed_Controller:XF-508P-A,,,XFCN,XF-508P-A
+10,2,"HeatSink1, HeatSink2",513102B02500G,FanSpeed_Controller:513102B02500G,,,Aavid,513102B02500G
+11,1,J1,DG135T-10.16-03P-14-00A(H),FanSpeed_Controller:DG135T-10.16-03P-14-00A(H),,,DEGSON,DG135T-10.16-03P-14-00A(H)
+12,3,"J2, J3, J4",DG636-6.35-02P-14-00A(H),FanSpeed_Controller:DG636-6.35-02P-14-00A(H),,,DEGSON,DG636-6.35-02P-14-00A(H)
+13,2,"K1, K2",SRA-12VDC-CL,FanSpeed_Controller:SRA-12VDC-CL,,,Ningbo Songle Relay,SRA-12VDC-CL
+14,1,L1,47uH,Inductor_SMD:L_Taiyo-Yuden_NR-60xx,Power Inductor,FIXED IND 47UH ,Taiyo Yuden,NRS6028T470MMGJ
+15,2,"Q1, Q2",IRF1010EZPBF,Package_TO_SOT_THT:TO-220-3_Vertical,,,Infineon,IRF1010EZPBF
+16,1,R1,120,Resistor_SMD:R_0603_1608Metric,Resistor,RES 120 OHM 1% 1/10W 0603,,
+17,2,"R2, R4",1K,Resistor_SMD:R_0603_1608Metric,Resistor,RES 1K OHM 1% 1/10W 0603,,
+18,1,R3,3K,Resistor_SMD:R_0603_1608Metric,Resistor,RES 3K OHM 1% 1/10W 0603,,
+19,1,U1,ISO1050DUB,Package_SO:SOP-8_6.62x9.15mm_P2.54mm,,,Texas Instruments,ISO1050DUB
+20,1,U2,LM2596S-ADJ,Package_TO_SOT_SMD:TO-263-5_TabPin3,,,Texas Instruments,LM2596S-ADJ
+21,1,U3,MIC4420YM,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,Microchip,MIC4420YM
+22,1,U4,MCP2515-I/SO,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm,,,Microchip,MCP2515-I/SO
+23,1,X1,8MHz,Crystal:Crystal_HC49-U_Vertical,,,CTS Electronic,ATS080BSM-1

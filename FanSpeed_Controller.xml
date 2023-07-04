@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\2022\11\FanSpeed_Controller\FanSpeed_Controller.kicad_sch</source>
+    <date>11/23/2022 5:33:43 AM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FanSpeed_Controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78d7cf04-96c9-45e8-a218-ab4c03f3c3ce</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100uF/50v</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP ALUM 100UF 20% 50V RADIAL</field>
+        <field name="MFR">Nichicon</field>
+        <field name="MPN">UCJ1H101MCL1GS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP ALUM 100UF 20% 50V RADIAL"/>
+      <property name="MFR" value="Nichicon"/>
+      <property name="MPN" value="UCJ1H101MCL1GS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d8d9c8d-c40f-4ede-8f2e-3636f4c0e133</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db8646f0-18d1-4735-b49e-093c09e2b7bc</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>220uF/16v</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP ALUM 220UF 20% 16V RADIAL</field>
+        <field name="MFR">Nichicon</field>
+        <field name="MPN">UUD1C221MCL1GS</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP ALUM 220UF 20% 16V RADIAL"/>
+      <property name="MFR" value="Nichicon"/>
+      <property name="MPN" value="UUD1C221MCL1GS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab0e11f8-23bf-4c1d-b66b-6d202d1cdaa6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb5ff4d-f8c0-47a0-bab9-c4def7ee6215</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9831890-f7b4-4f50-9296-7eaa4ee1e040</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f243793a-14f6-46f6-b3b8-379d412c3237</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.5pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 2.5PF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 2.5PF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36591027-10fa-4144-a4cf-89dd327783c4</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 22PF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 22PF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f4535b1-f11d-46b8-9fc8-979694848d20</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Capacitor</field>
+        <field name="Description">CAP CER 22PF 50V X7R 0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Category" value="Capacitor"/>
+      <property name="Description" value="CAP CER 22PF 50V X7R 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ef653ab-167f-4842-85c3-48b51cfb7d5c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <fields>
+        <field name="MFR">STM</field>
+        <field name="MPN">1N5822</field>
+      </fields>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="MFR" value="STM"/>
+      <property name="MPN" value="1N5822"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad1c5a1-ba6c-465b-91ca-95ebfe6ffd39</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>P600B-E3/54</value>
+      <footprint>Diode_THT:D_P600_R-6_P20.00mm_Horizontal</footprint>
+      <fields>
+        <field name="MFR">Vishay</field>
+        <field name="MPN">P600B-E3/54</field>
+      </fields>
+      <libsource lib="Diode" part="5KPxxA" description="5000W unidirectional Transient Voltage Suppressor, P-600"/>
+      <property name="MFR" value="Vishay"/>
+      <property name="MPN" value="P600B-E3/54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1c98a27-114d-4368-b90d-99a7acb4321d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>P600B-E3/54</value>
+      <footprint>Diode_THT:D_P600_R-6_P20.00mm_Horizontal</footprint>
+      <fields>
+        <field name="MFR">Vishay</field>
+        <field name="MPN">P600B-E3/54</field>
+      </fields>
+      <libsource lib="Diode" part="5KPxxA" description="5000W unidirectional Transient Voltage Suppressor, P-600"/>
+      <property name="MFR" value="Vishay"/>
+      <property name="MPN" value="P600B-E3/54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64c8ef8d-e93b-41b4-8a99-a49ff07994d9</tstamps>
+    </comp>
+    <comp ref="FH1">
+      <value>XF-508P-A</value>
+      <footprint>FanSpeed_Controller:XF-508P-A</footprint>
+      <fields>
+        <field name="MFR">XFCN</field>
+        <field name="MPN">XF-508P-A</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="XF-508P-A" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="MFR" value="XFCN"/>
+      <property name="MPN" value="XF-508P-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>931571b4-1a04-44e1-a1cf-d7cb16025a1e</tstamps>
+    </comp>
+    <comp ref="FH2">
+      <value>XF-508P-A</value>
+      <footprint>FanSpeed_Controller:XF-508P-A</footprint>
+      <fields>
+        <field name="MFR">XFCN</field>
+        <field name="MPN">XF-508P-A</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="XF-508P-A" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="MFR" value="XFCN"/>
+      <property name="MPN" value="XF-508P-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c1b54bb-c3cd-41d6-8527-725112655db3</tstamps>
+    </comp>
+    <comp ref="HeatSink1">
+      <value>513102B02500G</value>
+      <footprint>FanSpeed_Controller:513102B02500G</footprint>
+      <fields>
+        <field name="MFR">Aavid</field>
+        <field name="MPN">513102B02500G</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="513102B02500G" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="Aavid"/>
+      <property name="MPN" value="513102B02500G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a7d6ad-1792-4b28-8cb6-674890ac0dd5</tstamps>
+    </comp>
+    <comp ref="HeatSink2">
+      <value>513102B02500G</value>
+      <footprint>FanSpeed_Controller:513102B02500G</footprint>
+      <fields>
+        <field name="MFR">Aavid</field>
+        <field name="MPN">513102B02500G</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="513102B02500G" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="Aavid"/>
+      <property name="MPN" value="513102B02500G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0290aaf1-0db6-4df4-a370-e421ed125604</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DG135T-10.16-03P-14-00A(H)</value>
+      <footprint>FanSpeed_Controller:DG135T-10.16-03P-14-00A(H)</footprint>
+      <fields>
+        <field name="MFR">DEGSON</field>
+        <field name="MPN">DG135T-10.16-03P-14-00A(H)</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="DG135T-10.16-03P-14-00A(H)" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="DEGSON"/>
+      <property name="MPN" value="DG135T-10.16-03P-14-00A(H)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>426207ba-19e5-4dd2-b15b-f7ab9987f082</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DG636-6.35-02P-14-00A(H)</value>
+      <footprint>FanSpeed_Controller:DG636-6.35-02P-14-00A(H)</footprint>
+      <fields>
+        <field name="MFR">DEGSON</field>
+        <field name="MPN">DG636-6.35-02P-14-00A(H)</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="JL500-50802G01" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="DEGSON"/>
+      <property name="MPN" value="DG636-6.35-02P-14-00A(H)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49bd7c09-7a51-4127-9a47-284742d41dcf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DG636-6.35-02P-14-00A(H)</value>
+      <footprint>FanSpeed_Controller:DG636-6.35-02P-14-00A(H)</footprint>
+      <fields>
+        <field name="MFR">DEGSON</field>
+        <field name="MPN">DG636-6.35-02P-14-00A(H)</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="JL500-50802G01" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="DEGSON"/>
+      <property name="MPN" value="DG636-6.35-02P-14-00A(H)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49330c3c-d528-465a-b985-6345dade8b99</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DG636-6.35-02P-14-00A(H)</value>
+      <footprint>FanSpeed_Controller:DG636-6.35-02P-14-00A(H)</footprint>
+      <fields>
+        <field name="MFR">DEGSON</field>
+        <field name="MPN">DG636-6.35-02P-14-00A(H)</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="JL500-50802G01" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="DEGSON"/>
+      <property name="MPN" value="DG636-6.35-02P-14-00A(H)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56772d6a-1de5-486b-afcf-1a706ddc68fc</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>SRA-12VDC-CL</value>
+      <footprint>FanSpeed_Controller:SRA-12VDC-CL</footprint>
+      <fields>
+        <field name="MFR">Ningbo Songle Relay</field>
+        <field name="MPN">SRA-12VDC-CL</field>
+      </fields>
+      <libsource lib="" part="SRA-12VDC-CL_1" description="Hsin Da Y14-series relay, Single Pole Dual Throw"/>
+      <property name="MFR" value="Ningbo Songle Relay"/>
+      <property name="MPN" value="SRA-12VDC-CL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b85c7343-1e3b-4d29-b791-03cd85d681c3</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>SRA-12VDC-CL</value>
+      <footprint>FanSpeed_Controller:SRA-12VDC-CL</footprint>
+      <fields>
+        <field name="MFR">Ningbo Songle Relay</field>
+        <field name="MPN">SRA-12VDC-CL</field>
+      </fields>
+      <libsource lib="" part="SRA-12VDC-CL_1" description="Hsin Da Y14-series relay, Single Pole Dual Throw"/>
+      <property name="MFR" value="Ningbo Songle Relay"/>
+      <property name="MPN" value="SRA-12VDC-CL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>693b0fb0-e30c-45a2-b5a3-2489783ec00e</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-60xx</footprint>
+      <fields>
+        <field name="Category">Power Inductor</field>
+        <field name="Description">FIXED IND 47UH </field>
+        <field name="MFR">Taiyo Yuden</field>
+        <field name="MPN">NRS6028T470MMGJ</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Category" value="Power Inductor"/>
+      <property name="Description" value="FIXED IND 47UH "/>
+      <property name="MFR" value="Taiyo Yuden"/>
+      <property name="MPN" value="NRS6028T470MMGJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d5dd8cb-35b3-4d62-a1c1-7e5f1ed71d4e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF1010EZPBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="MFR">Infineon</field>
+        <field name="MPN">IRF1010EZPBF</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="IRF1010EZPBF" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="MFR" value="Infineon"/>
+      <property name="MPN" value="IRF1010EZPBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b0891b9-e343-48b7-bd15-fef515f6f5cd</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF1010EZPBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="MFR">Infineon</field>
+        <field name="MPN">IRF1010EZPBF</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="IRF1010EZPBF" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="MFR" value="Infineon"/>
+      <property name="MPN" value="IRF1010EZPBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9add22d2-b5c0-462d-af9e-5526b1a4262d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="RES 120 OHM 1% 1/10W 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72f8a099-e007-40cf-9e30-4e82a3d59f51</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">RES 1K OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="RES 1K OHM 1% 1/10W 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ef4b60b-2d45-481c-9be3-0f5fc1f2b77c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">RES 3K OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="RES 3K OHM 1% 1/10W 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>987974f1-375b-4ccb-8692-dc9dc3057c8b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="Description">RES 1K OHM 1% 1/10W 0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Category" value="Resistor"/>
+      <property name="Description" value="RES 1K OHM 1% 1/10W 0603"/>
+      <property name="MFR" value=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d0fdf9b-eee9-4ca5-a239-a1c39b872f72</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ISO1050DUB</value>
+      <footprint>Package_SO:SOP-8_6.62x9.15mm_P2.54mm</footprint>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">ISO1050DUB</field>
+      </fields>
+      <libsource lib="Interface_CAN_LIN" part="ISO1050DUB" description="Isolated CAN Transceiver, SOP-8"/>
+      <property name="MFR" value="Texas Instruments"/>
+      <property name="MPN" value="ISO1050DUB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>092c053c-dd38-4f6a-9396-9f9197160f5f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM2596S-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">LM2596S-ADJ</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LM2596S-ADJ" description="Adjustable 3A Step-Down Voltage Regulator, TO-263"/>
+      <property name="MFR" value="Texas Instruments"/>
+      <property name="MPN" value="LM2596S-ADJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f1a8827-b179-4e89-8d1d-840a1d62f4bd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MIC4420YM</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="MFR">Microchip</field>
+        <field name="MPN">MIC4420YM</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="MIC4420" description="Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8"/>
+      <property name="MFR" value="Microchip"/>
+      <property name="MPN" value="MIC4420YM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d70340df-65bf-4ac9-bc73-16f78baef99f</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MCP2515-I/SO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="MFR">Microchip</field>
+        <field name="MPN">MCP2515-I/SO</field>
+      </fields>
+      <libsource lib="Interface_CAN_LIN" part="MCP2515-xSO" description="Stand-Alone CAN Controller with SPI Interface, SOIC-18"/>
+      <property name="MFR" value="Microchip"/>
+      <property name="MPN" value="MCP2515-I/SO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58a071ca-674e-41e2-9f8c-3cad477f04ac</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <fields>
+        <field name="MFR">CTS Electronic</field>
+        <field name="MPN">ATS080BSM-1</field>
+      </fields>
+      <libsource lib="MIC4420YM" part="8MHz" description=""/>
+      <property name="MFR" value="CTS Electronic"/>
+      <property name="MPN" value="ATS080BSM-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FanSpeed_Controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0d5740e-54c9-4daf-b995-148d581a42be</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SRA-12VDC-CL_1">
+      <description>Hsin Da Y14-series relay, Single Pole Dual Throw</description>
+      <docs>http://www.hsinda.com.cn/en/imgdown.asp?FileName=UploadFiles/201431310240386.pdf</docs>
+      <footprints>
+        <fp>Relay*Y14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SRA-12VDC-CL_1</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_HsinDa_Y14</field>
+        <field name="Datasheet">http://www.hsinda.com.cn/en/imgdown.asp?FileName=UploadFiles/201431310240386.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5822">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5822</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="5KPxxA">
+      <description>5000W unidirectional Transient Voltage Suppressor, P-600</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</docs>
+      <footprints>
+        <fp>D?P600*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">5KPxxA</field>
+        <field name="Footprint">Diode_THT:D_P600_R-6_P20.00mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="ISO1050DUB">
+      <description>Isolated CAN Transceiver, SOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/iso1050.pdf</docs>
+      <footprints>
+        <fp>SOP*6.62x9.15mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISO1050DUB</field>
+        <field name="Footprint">Package_SO:SOP-8_6.62x9.15mm_P2.54mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/iso1050.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="RXD" type="output"/>
+        <pin num="3" name="TXD" type="input"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="MCP2515-xSO">
+      <description>Stand-Alone CAN Controller with SPI Interface, SOIC-18</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2515-xSO</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT/SOF" type="output"/>
+        <pin num="4" name="~{TX0RTS}" type="input"/>
+        <pin num="5" name="~{TX1RTS}" type="input"/>
+        <pin num="6" name="~{TX2RTS}" type="input"/>
+        <pin num="7" name="OSC2" type="output"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="~{RX1BF}" type="output"/>
+        <pin num="11" name="~{RX0BF}" type="output"/>
+        <pin num="12" name="~{INT}" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="~{CS}" type="input"/>
+        <pin num="17" name="~{RESET}" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="513102B02500G">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HeatSink</field>
+        <field name="Value">513102B02500G</field>
+      </fields>
+    </libpart>
+    <libpart lib="MIC4420YM" part="8MHz">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">8MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="DG135T-10.16-03P-14-00A(H)">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DG135T-10.16-03P-14-00A(H)</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="IRF1010EZPBF">
+      <description>33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220</description>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF1010EZPBF</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="JL500-50802G01">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JL500-50802G01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="MIC4420">
+      <description>Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>MSOP*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC4420</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VS" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="VS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC4420YM" part="XF-508P-A">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FH</field>
+        <field name="Value">XF-508P-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2596S-ADJ">
+      <description>Adjustable 3A Step-Down Voltage Regulator, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2596.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596S-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2596.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_CAN_LIN.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="MIC4420YM">
+      <uri>E:\2022\11\FanSpeed_Controller/Local_Lib/MIC4420YM.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC1" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VCC2" pintype="power_in"/>
+      <node ref="U4" pin="18" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/FAN_CON">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="3" name="/SPI_MISO">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="SO" pintype="output"/>
+    </net>
+    <net code="4" name="/SPI_MOSI">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="U4" pin="14" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="5" name="/SPI_SCK">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="U4" pin="13" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="6" name="/SPI_~{CS}">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="U4" pin="16" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="7" name="/~{INT}">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+      <node ref="K2" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND1" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="FH2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="FH2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="K2" pin="4" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="OUT" pintype="output"/>
+      <node ref="U3" pin="7" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="OSC2" pintype="output"/>
+      <node ref="X1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="OSC1" pintype="input"/>
+      <node ref="X1" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(FH1-Pad1)">
+      <node ref="FH1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="FH1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(FH1-Pad3)">
+      <node ref="FH1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="FH1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="K2" pin="5" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(FH2-Pad1)">
+      <node ref="FH2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="FH2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad1)">
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad2)">
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad1)">
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J4-Pad2)">
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="RXD" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="RXCAN" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="TXD" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="TXCAN" pintype="output"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(A1-Pad7)">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(A1-Pad24)">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(A1-Pad27)">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="47" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(K1-Pad2)">
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(K2-Pad2)">
+      <node ref="K2" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="CLKOUT/SOF" pintype="output"/>
+    </net>
+    <net code="52" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="~{TX0RTS}" pintype="input"/>
+    </net>
+    <net code="53" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="~{TX1RTS}" pintype="input"/>
+    </net>
+    <net code="54" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="~{TX2RTS}" pintype="input"/>
+    </net>
+    <net code="55" name="unconnected-(U4-Pad10)">
+      <node ref="U4" pin="10" pinfunction="~{RX1BF}" pintype="output"/>
+    </net>
+    <net code="56" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="~{RX0BF}" pintype="output"/>
+    </net>
+  </nets>
+</export>

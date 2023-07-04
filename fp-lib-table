@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/Local_Lib/footprint.pretty")(options "")(descr ""))
+  (lib (name "FanSpeed_Controller")(type "KiCad")(uri "${KIPRJMOD}/Local_Lib/FanSpeed_Controller.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Adafruit-ItsyBitsy-M4")(type "KiCad")(uri "${KIPRJMOD}/Local_Lib/Adafruit-ItsyBitsy-M4.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "MIC4420YM")(type "KiCad")(uri "${KIPRJMOD}/Local_Lib/MIC4420YM.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-240.0001-18-1X")(type "KiCad")(uri "C:/Users/admin/Downloads/ECS-240.0001-18-1X/ECS-240.0001-18-1X.kicad_sym")(options "")(descr ""))
+)
